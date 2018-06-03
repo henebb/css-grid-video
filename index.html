@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* 
+            grid-column-gap: 1em;
+            grid-row-gap: 1em; 
+            */
+            grid-gap: 1em;
+
+        }
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut corrupti iusto iste, labore incidunt quasi perferendis quo doloremque quia quas ea voluptatem odio nobis! Pariatur iste perspiciatis doloribus eos iusto nostrum facere harum dignissimos quisquam, mollitia sint magni alias dolores maiores enim magnam atque labore animi saepe nesciunt odio veritatis laudantium quas? Ea consequatur sit quod omnis veniam, doloremque, esse asperiores vitae in et molestias, nisi repellat iure incidunt accusantium at fuga dolorem eos repudiandae eligendi nobis. Beatae, similique eius.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi unde maiores nulla, expedita nam optio natus earum. Illo saepe quo nisi, pariatur vel, harum quisquam cum molestias eos neque ipsam.
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut corrupti iusto iste, labore incidunt quasi perferendis quo doloremque quia quas ea voluptatem odio nobis! Pariatur iste perspiciatis doloribus eos iusto nostrum facere harum dignissimos quisquam, mollitia sint magni alias dolores maiores enim magnam atque labore animi saepe nesciunt odio veritatis laudantium quas? Ea consequatur sit quod omnis veniam, doloremque, esse asperiores vitae in et molestias, nisi repellat iure incidunt accusantium at fuga dolorem eos repudiandae eligendi nobis. Beatae, similique eius.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi unde maiores nulla, expedita nam optio natus earum. Illo saepe quo nisi, pariatur vel, harum quisquam cum molestias eos neque ipsam.
+        </div>
+    </div>
+    <div>
+        From video:
+        <a href="https://www.youtube.com/watch?v=jV8B24rSN5o">https://www.youtube.com/watch?v=jV8B24rSN5o</a>
+    </div>
+</body>
+</html>
